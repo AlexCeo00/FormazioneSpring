@@ -17,7 +17,7 @@ import java.util.List;
 @Service("userService")
 @Transactional
 public class UserService {
-    @Autowired
+    @Autowired//injection
     private UserDao userDao;
     @Autowired
     private RuoliDao ruoDao;
